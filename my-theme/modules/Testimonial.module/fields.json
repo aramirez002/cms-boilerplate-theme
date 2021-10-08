@@ -1,0 +1,42 @@
+[ {
+  "id" : "1e91b7c7-5c04-acd4-d6a7-96447d00119b",
+  "name" : "customer_name",
+  "label" : "Customer Name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Sally"
+}, {
+  "id" : "5546ff71-cc2a-5c9c-0a48-9c96df432c8a",
+  "name" : "profile_picture",
+  "label" : "Profile Picture",
+  "help_text" : "",
+  "inline_help_text" : "Customer Profile Picture.",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent10.net/hubfs/20821110/profile-pic-sally.svg",
+    "alt" : "Customer Profile Picture.",
+    "loading" : "lazy",
+    "width" : 100,
+    "height" : 100,
+    "max_width" : 100,
+    "max_height" : 100
+  }
+}, {
+  "id" : "89361d80-ae4b-f507-3b92-80fd8106db64",
+  "name" : "testimonial",
+  "label" : "I would 100% recommend it to my colleagues and friends.",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>I’ve had <strong>nothing</strong> but wonderful experiences with this company.</p>"
+} ]
